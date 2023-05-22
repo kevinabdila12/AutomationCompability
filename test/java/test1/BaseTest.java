@@ -28,8 +28,8 @@ public class BaseTest {
 		MutableCapabilities sauceOpts = new MutableCapabilities();
 		sauceOpts.setCapability("build", "selenium-build-56UD4");
 		sauceOpts.setCapability("seleniumVersion", "4.9.0");
-	 	sauceOpts.setCapability("username", "oauth-kevinabdillah42-9274d");
-		sauceOpts.setCapability("accessKey", "17bcad20-8a31-41ae-a809-efa7e2b6b60d");
+	 	sauceOpts.setCapability("username", "(USERNAME AKUN SAUCE LABS)");
+		sauceOpts.setCapability("accessKey", "(ACCESS KEY AKUN SAUCE LABS)");
 		sauceOpts.setCapability("tags", "BISMILLAH BISA");
 
 		DesiredCapabilities cap = new DesiredCapabilities();
